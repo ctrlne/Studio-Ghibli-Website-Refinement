@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="canvas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Ghibli Studio.com</title>
+    
+    <!-- Add Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    <!-- Add Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-lg navbar-dark">
+    
+    <img src="logo.png" alt="Description of the image" width="95" height="auto" href="index.html">
+    <a class="navbar-brand" href="index.html">Studio Ghibli</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+
+
+                <li class="nav-item active">
+                    <a href="company.html" class="nav-link">Company</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="works.html">Film</a>
+        </li>
+
+
+<li class="nav-item">
+            <a class="nav-link" href="canvas.html">Canvas</a>
+        </li>
+    
+
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="canvas">
+        <div class="slide">
+            <div class="item" style="background-image: url('coldaf.jpg');">
+                <div class="content">
+                    <div class="name">Whimsical Fantasy</div>
+                    <div class="des">Miyazaki's art often features fantastical worlds filled with whimsical creatures and imaginative landscapes, creating a sense of wonder and magic.</div>
+                    <a href="https://characterdesignreferences.com/artist-of-the-week-11/hayao-miyazaki" class="btn-link">See More</a>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('kiki2.jpg');">
+                <div class="content">
+                    <div class="name">The Art of Hayao Miyazaki</div>
+                    <div class="des">He aspired to become a manga artist, but discovered he could not draw people; instead, he only drew planes, tanks, and battleships for several years. Miyazaki was influenced by several manga artists, such as Tetsuji Fukushima, Soji Yamakawa and Osamu Tezuka.</div>
+                    <a href="https://characterdesignreferences.com/artist-of-the-week-11/hayao-miyazaki" class="btn-link">See More</a>
+
+                </div>
+            </div>
+            <div class="item" style="background-image: url('characterdesign.jpg');">
+                <div class="content">
+                    <div class="name">Environmental Harmony</div>
+                    <div class="des">A recurring theme in Miyazaki's work is the harmonious relationship between humans and nature, depicted through lush, vibrant scenery and detailed natural elements.</div>
+                    <a href="https://characterdesignreferences.com/artist-of-the-week-11/hayao-miyazaki" class="btn-link">See More</a>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('gigaticasaurus.jpg');">
+                <div class="content">
+                    <div class="name">Detailed Architecture</div>
+                    <div class="des">Miyazaki's intricate and imaginative architectural designs, from towering castles to quaint village homes, showcase his attention to detail and creative vision.</div>
+                    <a href="https://characterdesignreferences.com/artist-of-the-week-11/hayao-miyazaki" class="btn-link">See More</a>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('karabaoslay.jpg');">
+                <div class="content">
+                    <div class="name">Strong Heroines</div>
+                    <div class="des">His art frequently centers around strong, independent female protagonists who embark on courageous journeys and personal growth.</div>
+                    <a href="https://characterdesignreferences.com/artist-of-the-week-11/hayao-miyazaki" class="btn-link">See More</a>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('creepycat.jpg');">
+                <div class="content">
+                    <div class="name">Airborne Adventures</div>
+                    <div class="des">Scenes of flight and airborne exploration are a hallmark of Miyazaki's art, reflecting his fascination with aviation and the freedom it represents.</div>
+                    <a href="https://characterdesignreferences.com/artist-of-the-week-11/hayao-miyazaki" class="btn-link">See More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <button class="prev"><i class="fas fa-arrow-left"></i></button>
+            <button class="next"><i class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <!-- Scroll to top button -->
+    <div id="scrollToTopBtn" class="scroll-to-top-container">
+        <div class="scroll-to-top-btn">&uarr;</div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white py-3">
+        <p>&copy; 2024 CMENDOZA Studio Ghibli Website</p>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery (Add these scripts at the end of the body for better performance) -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script>
+        let next = document.querySelector('.next');
+        let prev = document.querySelector('.prev');
+
+        next.addEventListener('click', function() {
+            let items = document.querySelectorAll('.item');
+            document.querySelector('.slide').appendChild(items[0]);
+        });
+
+        prev.addEventListener('click', function() {
+            let items = document.querySelectorAll('.item');
+            document.querySelector('.slide').prepend(items[items.length - 1]);
+        });
+    </script>
+</body>
+
+</html>
+
+

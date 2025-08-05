@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="works.css">
+    <title>Ghibli Studio.com</title>
+
+     <!-- Add Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Add Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+
+
+<body>
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    
+    <img src="logo.png" alt="Description of the image" width="95" height="auto" href="index.html">
+    <a class="navbar-brand" href="index.html">Studio Ghibli</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+
+
+                <li class="nav-item active">
+                    <a href="company.html" class="nav-link">Company</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="works.html">Film</a>
+        </li>
+
+
+<li class="nav-item">
+            <a class="nav-link" href="canvas.html">Canvas</a>
+        </li>
+    
+
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="works">
+        <section>
+           <video id="slider" autoplay muted loop>
+               <source src="howl.mp4" type="video/mp4">
+           </video>
+       
+       
+           <ul class="navigation">
+             
+               <li onclick="videoUrl('howl.mp4')"><img src="howlbg.jpg" alt="Howl's Moving Castle"></li>
+               <li onclick="videoUrl('totoro.mp4')"><img src="totorobg.jpg" alt="My Neighbor Totoro"></li>
+               <li onclick="videoUrl('ponyo.mp4')"><img src="ponyobg.jpg" alt="Ponyo"></li>
+               <li onclick="videoUrl('earthsea.mp4')"><img src="earthseabg.jpg" alt="Tales from Earthsea"></li>
+           </ul>
+       </section>
+       </div>
+       
+       <script type="text/javascript">
+           function videoUrl(videoSrc) {
+               document.getElementById("slider").src = videoSrc;
+           }
+       </script>
+
+   
+    </section>
+</div>
+
+
+<img src="tall.png" class="ghibli-img" width="30%" height="auto">
+
+
+<div class="text1">
+<h1>The Challenges</h1>
+<p>Following the success of "Spirited Away," Studio Ghibli released a double feature in 2002, including "The Cat Returns," directed by Morita Hiroyuki, and "Ghiblies Episode 2," directed by Momose Yoshiyuki, marking the first films directed by someone other than Takahata and Miyazaki. This release, which generated 6.5 billion yen and became the top-grossing Japanese film of 2002, signified a successful venture into films by younger directors. In the same year, Ghibli expanded its activities by supporting the distribution of the Czech film "Dark Blue" and assisting with the Japanese dub of the French hit "Kiriku and the Witch" in 2003. To diversify beyond its core productions, Ghibli established the "Studio Casino" brand, producing and distributing films such as Hideaki Anno's "Shikinichi" and Katsuyuki Motohiro's "Satorare." In 2004, "Studio Casino" released "Portable Airport," and later produced music videos with a retro-future theme. Ghibli also began a new trend of creating commercial films, starting with an Asahi Soft Drinks ad in 2001 and expanding to numerous commercials for various companies, contributing significantly to the studio's revenue. Additionally, Ghibli ventured into event planning and management, organizing exhibitions like the "Studio Ghibli 3D Modeling Exhibition" and the highly successful "Oga Kazuo Exhibition" in 2007, which attracted 290,000 visitors and set a new record, highlighting Ghibli's growing influence and the public's strong interest in its activities.</p>
+</div>
+
+
+
+
+
+<div class="parallax"></div>
+
+<div class="content1">
+    <h1>Characteristics of Ghibli</h1>
+<p>In 1993, Studio Ghibli advanced significantly by installing two large computer-controlled filming stands and establishing a comprehensive filming department, encompassing all stages from drawing and art to finishing and photography, a stark contrast to the highly specialized division of labor in the Japanese animation industry. This holistic approach, emphasizing collaboration within the same space, aimed to enhance work quality. That same year, Ghibli produced its first television work, "Ocean Waves," directed by Mochizuki Tomomitsu with a youthful production team and a "quickly, cheaply, and well" motto, though it exceeded budget and schedule. In 1994, Takahata's "Pom Poko" became the top Japanese film of the year, showcasing the talent of young animators and introducing limited CG use, marking the beginning of Ghibli's CG trend. By the release of "Whisper of the Heart" in 1995, Miyazaki and Kondo Yoshifumi's collaboration introduced digital compositing and highlighted the studio’s growing embrace of digital technology. The trend continued with "Princess Mononoke," which saw the introduction of digital painting and the establishment of a dedicated CG department, later renamed the Digital Animation Department, contributing significantly to film production until "Tales from Earthsea." However, this department was downsized and integrated into the Visual Arts Department due to a shift in animation direction. Today, Studio Ghibli employs about 150 staff, with two-thirds involved in film production, reflecting its commitment to high-quality, in-house production while also indicating a potential vulnerability in its operational model.</p>
+</div>
+
+<section class="slider-container">
+    <div class="slider-images">
+
+      <div class="slider-img">
+        <img src="porco.jpg" alt="2" />
+        <h1>Porco Rosso</h1>
+        <div class="details">
+          <h2>Porco Rosso</h2>
+          <p>1992</p>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="oceanwaves.jpg" alt="3" />
+        <h1>Ocean Waves</h1>
+        <div class="details">
+          <h2>Ocean Waves</h2>
+          <p>1993</p>
+        </div>
+      </div>
+      <div class="slider-img active">
+        <img src="onyourmark.jpg" alt="4" />
+        <h1>Your Mark</h1>
+        <div class="details">
+          <h2>On Your Mark</h2>
+          <p>1995</p>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="totoro.jpg" alt="5" />
+        <h1>Totoro</h1>
+        <div class="details">
+          <h2>My Neighbour Totoro</h2>
+          <p>1988</p>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="mononoke.jpg" alt="6" />
+        <h1>Mononoke</h1>
+        <div class="details">
+          <h2>Princess Mononoke </h2>
+          <p>1997</p>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="pom poko.jpg" alt="7" />
+        <h1>Pom Poko</h1>
+        <div class="details">
+          <h2>Pom Poko</h2>
+          <p>1994</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    jQuery(document).ready(function ($) {
+      $(".slider-img").on("click", function () {
+        $(".slider-img").removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+  </script>
+
+<div class="content">
+    <h1>Studio Ghibli Transforms Animation Forever</h1>
+    <p>Hayao Miyazaki’s work has influenced animation all around the world causing a global cross-cultural effect through cinema. His work has shown influence in many of Disney’s films including How to Train your Dragon (2010) drawing influences from Princess Mononoke (1999) and Castle in the Sky’s (1972)magical floating land similar to the Disney movie Up (2009). Miyazaki’s work has also influenced other companies like Pixar, with his 1988 film My Neighbor Totoro to the 2001 film Monsters, Inc. Disney is also seen drawing influence from Ponyo (2009) for their 2016 film Moana, and Coco (2017) having similarities to Ghibli’s Spirited Away (2001). His influence on American animation ranges to cartoons like Gravity Falls, Adventure Time, and The Simpsons as well. Although there are greater differences between the Disney and Studio Ghibli, there is definitely a visual connection between them. I also noticed how Disney tends to no longer have a traditional sense to their storylines, for example, a prince and princess fall in love and live happily ever after. One can imagine that Miyazaki’s films evoked such positive messages about saving the environment that it influenced the writing style of many including Disney. We can see this in Moana as well, as she saves her village by restoring the heart of the volcano that was stolen. As well as the movie Wall-E (2008) demonstrating the uninhabitable future we have which is a result of bad practices in human behavior that threaten every being to extinction. These films show great influence from Miyazaki’s writing style as well as artistic style. </p>
+    <p>- Written by Liz Unanyan</p>
+</div>
+
+<div class="main-page">
+    <section class="main-background" id="home">
+        <video autoplay loop muted playsinline class="video-bg">
+            <source src="myazaki.mp4" type="video/mp4">
+        </video>
+  
+
+<div class="parallax"></div>
+
+
+
+
+
+
+      <!-- Section with Two Photos -->
+      <section class="photo-section">
+        
+        <div class="text-overlay">
+            <img src="bedroom.png" width="500" height="auto">
+            <br>
+            <a href="https://www.ghibli.jp/history/" class="read-more-btn">Read More</a>
+        </br>
+            
+            </div>
+        </div>
+    </section>
+
+
+
+ <!-- Content Section -->
+
+
+
+
+
+
+   <!-- Scroll to top button -->
+     <div id="scrollToTopBtn" class="scroll-to-top-container">
+    <div class="scroll-to-top-btn">&uarr;</div>
+  </div>
+
+
+
+
+        <!-- Footer -->
+        <footer class="bg-black text-center py-3">
+                <p>&copy; 2024 CMENDOZA Studio Ghibli Website</p>
+        </footer>
+
+    <!-- Bootstrap JS and jQuery (Add these scripts at the end of the body for better performance) -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+

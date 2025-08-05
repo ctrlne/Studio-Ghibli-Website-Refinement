@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="canvas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Ghibli Studio.com</title>
+    
+    <!-- Add Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    <!-- Add Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-lg navbar-dark">
+    
+    <img src="logo.png" alt="Description of the image" width="95" height="auto" href="index.html">
+    <a class="navbar-brand" href="index.html">Studio Ghibli</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+
+
+                <li class="nav-item active">
+                    <a href="company.html" class="nav-link">Company</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="works.html">Film</a>
+        </li>
+
+
+<li class="nav-item">
+            <a class="nav-link" href="canvas.html">Canvas</a>
+        </li>
+    
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div class="main-page">
+        <section class="main-background" id="home">
+            <video autoplay loop muted playsinline class="video-bg">
+                <source src="real.mp4" type="video/mp4">
+            </video>
+
+            <div class="overlay-text">
+                <h1></h1>
+                 </div>
+                <p></p>
+
+            <div class="image-container"></div> <!-- This is the container for the image -->
+
+        </section>
+    </div>
+
+   
+    <img src="img.png" class="ghibli-img" width="60%" height="auto">
+
+
+
+    <div class="p1" id="platforms">
+        <img src="netflix.png">
+    </div>
+        <div class="p2" id="platforms">
+        <img src="prime video.png">
+    </div>
+        <div class="p3" id="platforms">
+        <img src="hbo.png">
+    </div>
+    
+
+
+      <!-- Section with Two Photos -->
+      <section class="photo-section">
+        <div class="photo" id="photo1">
+            <img src="closeup_founders.jpg" alt="Photo 1">
+        </div>
+        <div class="photo" id="photo2">
+            <img src="studio.jpg" alt="Photo 2">
+        </div>
+
+        <div class="text-overlay">
+            <h2>About the Company</h2>
+            <p>It began operations in June 1985 as a subsidiary of Tokuma Shoten Co., Ltd. with the aim of producing animated films directed by Takahata Isao and Miyazaki Hayao. It was initially based in Kichijoji, but in August 1992, it built its own studio at its current location. In June 1997, it merged with Tokuma Shoten Co., Ltd. to become Tokuma Shoten Co., Ltd./Studio Ghibli Company (later the Studio Ghibli Business Headquarters). In April 2005, it took over Studio Ghibli's animated works and all of the business of Tokuma Shoten Co., Ltd.'s Studio Ghibli Business Headquarters, and started anew as Studio Ghibli Co., Ltd. In October 2023, it became a subsidiary of Nippon Television Network Corporation through a stock transfer.</p>
+            <a href="company.html" class="read-more-btn">Read More</a>
+            
+            </div>
+        </div>
+    </section>
+
+    
+
+ <!-- Content Section -->
+
+ <div class="cam">
+    <img src="cam1.png" alt="Camera" class="default-image">
+    <img src="cam3.png" alt="Camera with Flash" class="hover-image">
+</div> 
+
+ <div class="video-wrapper">
+    <video autoplay muted loop id="background-video">
+        <source src="wrapper.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+  <div class="gallery">
+        <div class="gallery-item">
+            <img src="laputa.jpg" alt="Image 1" class="gallery-image">
+            <div class="overlay">
+                <div class="text">
+                    <h2>Laputa: Castle in the Sky</h2>
+                    <p>Available from 2020.12.18</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="onyourmark.jpg" alt="Image 2" class="gallery-image">
+            <div class="overlay">
+                <div class="text">
+                    <h2>On Your Mark</h2>
+                    <p>Available from 2020.12.18</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="onlyyesterday.jpg" alt="Image 3" class="gallery-image">
+            <div class="overlay">
+                <div class="text">
+                    <h2>Only Yesterday</h2>
+                    <p>Available from 2020.12.18</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="nausicaa.jpg" alt="Image 3" class="gallery-image">
+            <div class="overlay">
+                <div class="text">
+                    <h2>Nausicaä of the Valley of the Wind</h2>
+                    <p>Available from 2020.12.18</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="porco.jpg" alt="Image 3" class="gallery-image">
+            <div class="overlay">
+                <div class="text">
+                    <h2>Porco Rosso</h2>
+                    <p>Available from 2020.11.20</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="totoro.jpg" alt="Image 3" class="gallery-image">
+            <div class="overlay">
+                <div class="text">
+                    <h2>My Neighbour Totoro</h2>
+                    <p>Available from 2020.11.20</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="mononoke.jpg" alt="Image 3" class="gallery-image">
+            <div class="overlay">
+                <div class="text">
+                    <h2>Princess Mononoke</h2>
+                    <p>Available from 2020.10.16</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="oceanwaves.jpg" alt="Image 3" class="gallery-image">
+            <div class="overlay">
+                <div class="text">
+                    <h2>Ocean Waves</h2>
+                    <p>Available from 2020.11.20</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="ponyobg.jpg" alt="Image 3" class="gallery-image">
+            <div class="overlay">
+                <div class="text">
+                    <h2>Ponyo</h2>
+                    <p>Available from 2020.09.18</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="howlbg.jpg" alt="Image 3" class="gallery-image">
+            <div class="overlay">
+                <div class="text">
+                    <h2>Howl's Moving Castle</h2>
+                    <p>Available from 2020.10.16</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="pom poko.jpg" alt="Image 3" class="gallery-image">
+            <div class="overlay">
+                <div class="text">
+                    <h2>Pom Poko</h2>
+                    <p>Available from 2020.11.20</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="earthseabg.jpg" alt="Image 3" class="gallery-image">
+            <div class="overlay">
+                <div class="text">
+                    <h2>Tales from Earthsea</h2>
+                    <p>Available from 2020.09.18</p>
+                </div>
+            </div>
+        </div>
+   
+    
+ 
+
+
+
+   <!-- Scroll to top button -->
+     <div id="scrollToTopBtn" class="scroll-to-top-container">
+    <div class="scroll-to-top-btn">&uarr;</div>
+  </div>
+
+
+
+
+        <!-- Footer -->
+        <footer class="bg-black text-center py-3">
+                <p>&copy; 2024 CMENDOZA Studio Ghibli Website</p>
+        </footer>
+
+    <!-- Bootstrap JS and jQuery (Add these scripts at the end of the body for better performance) -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
+
+
