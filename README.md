@@ -1,6 +1,6 @@
 # Studio Ghibli Website Refinement
 
-### [View the Live Website Here](https://ctrlne.github.io/Ghibli-Website-Refinement/)
+### [View the Live Website Here](https://ctrlne.github.io/Studio-Ghibli-Website-Refinement/)
 
 This project is a personal and refined take on the official Studio Ghibli website, built from scratch to be fully responsive and visually immersive. It was created as a front-end development exercise to practice modern web design techniques and animations.
 
