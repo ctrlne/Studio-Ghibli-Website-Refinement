@@ -16,3 +16,8 @@ This project is a personal and refined take on the official Studio Ghibli websit
 * **Immersive Media:** The site heavily features background videos and high-resolution images to capture the Ghibli aesthetic.
 * **Interactive Elements:** Includes JavaScript-powered animations, image sliders, and video navigation.
 * **Professional File Structure:** All assets (images, videos, CSS) are organized into a clean and maintainable folder structure.
+
+## How to Run Locally
+1. Clone this repository.
+
+2. Open the index.html file in your web browser.
